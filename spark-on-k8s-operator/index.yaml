@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  spark-operator:
+  - apiVersion: v2
+    appVersion: v1beta2-1.2.0-3.0.0
+    created: "2021-07-19T11:20:04.655617+08:00"
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: 39b985f30f9627dfdfbe1b1fdd94d38b24ef21c2ca9f226e3be487d8d8c63441
+    home: https://github.com/hzhangse/spark-on-k8s-operator
+    keywords:
+    - spark
+    maintainers:
+    - email: rainbow954@163.com
+      name: hzhangse
+    name: spark-operator
+    urls:
+    - https://hzhangse.github.io/spark-on-k8s-operator/spark-operator-1.0.5.tgz
+    version: 1.0.5
+generated: "2021-07-19T11:20:04.65248+08:00"
