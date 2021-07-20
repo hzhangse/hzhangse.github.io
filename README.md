@@ -11,3 +11,5 @@ helm repo add spark-operator https://hzhangse.github.io/ <br/>
 helm install my-release spark-operator/spark-operator --namespace spark-operator --create-namespace <br/>
 helm install my-release spark-operator/spark-operator --namespace spark-operator --set webhook.enable=true --set sparkJobNamespace=test-ns <br/>
 helm uninstall my-release -n spark-operator <br/>
+helm install my-release spark-operator/spark-operator --namespace spark-operator --set webhook.enable=true --set sparkJobNamespace=test-ns --dry-run --debug
+
